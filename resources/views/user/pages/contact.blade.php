@@ -88,12 +88,12 @@
                     @endif
             <form action="{{ route('contact.send') }}" class="contact-form" method="POST" enctype="multipart/form-data">
                 @csrf
-                <div class="input-wrap">
+                <div class="input-wrap input">
                     <input type="text" class="contact-input" autocomplete="off" name="first_name" required>
                     <label>First Name</label>
                     <i class="icon fa-regular fa-address-card"></i>
                 </div>
-                <div class="input-wrap">
+                <div class="input-wrap input">
                     <input type="text" class="contact-input" autocomplete="off" name="last_name" required>
                     <label>Last Name</label>
                     <i class="icon fa-regular fa-address-card"></i>
